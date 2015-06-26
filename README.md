@@ -1,5 +1,7 @@
 # xltv-vagrantdemo
-Demo of XLTV along with Jenkins in a vagrant image
+Demo of XLTV along with Jenkins in a vagrant image.
+
+This demo box uses XL TestView 1.2.0 CE with Jenkins.
 
 To use this image do the following:
 
