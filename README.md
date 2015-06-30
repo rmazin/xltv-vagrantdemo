@@ -3,7 +3,7 @@ Demo of XLTV along with Jenkins in a vagrant image.
 
 This demo box uses XL TestView 1.2.0 CE with Jenkins.
 
-To use this image do the following:
+#To use this image do the following:
 
 1. clone this repository
 2. cd to directory where you cloned this repository
@@ -14,7 +14,7 @@ To use this image do the following:
 To access XLTV use http://your-image-ip:6516
 To access Jenkins use http://your-image-ip:8080
 
-To kick off the test job in Jenkins:
+#To kick off the test job in Jenkins:
 1. In XLTV, create a test specification which you want to push the jenkins output to
 2. In Jenkins, click on the job name and click configure
 3. Add a 'Post Build Step'
