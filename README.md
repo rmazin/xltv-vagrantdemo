@@ -29,6 +29,4 @@ To access Jenkins use http://your-image-ip:8080
 5. Enter */**.xml in the include field
 5. Build job and look at console for the [XL TestView] messages.
 
-While showing the 'import' funciton you can import test results in XLTV from /home/test-samples directory of this image.
-
 Please note:  The job will not actually push the results because there are no results in this Jenkins job.  You will be able to tell that it's working because it will note <b>[XL TestView] Uploading test run data to 'http://your-image-ip:6516'</b>
