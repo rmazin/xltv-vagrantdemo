@@ -14,6 +14,13 @@ This demo box uses XL TestView 1.2.0 CE with Jenkins.
 To access XLTV use http://your-image-ip:6516
 To access Jenkins use http://your-image-ip:8080
 
+#To import test results in XLTV
+1. Go to Import on the navigation in XLTV
+2. Enter "XLTV Server"
+3. Choose Project and enter Test Spec name
+4. Enter /home/test-samples as the import path
+5. Enter */**.xml as the file string to import
+
 #To kick off the test job in Jenkins:
 1. In XLTV, create a test specification which you want to push the jenkins output to
 2. In Jenkins, click on the job name and click configure
