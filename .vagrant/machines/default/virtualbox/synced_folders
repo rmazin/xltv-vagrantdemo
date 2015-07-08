@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/RMAZIN/xltv","disabled":false}}}
+=======
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/RMAZIN/xltv-img","disabled":false}}}
+>>>>>>> cd6c23f68f9d1d77c97d973382d5c9dcd807ebd4
