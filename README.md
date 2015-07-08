@@ -29,4 +29,6 @@ To access Jenkins use http://your-image-ip:8080
 5. Enter */**.xml in the include field
 5. Build job and look at console for the [XL TestView] messages.
 
-<b>Please note:</b>  The job will not actually push the results because there are no results in this Jenkins job.  You will be able to tell that it's working because it will note <b>[XL TestView] Uploading test run data to 'http://your-image-ip:6516'</b> in your Jenkins console output.
+PowerPoint training document is included in this repository.
+
+<b>Please note:</b>  The job will push results using a simple phpunit test which Jenkins runs during the build and exports to jUnit format.  The build will fail.  You will see the push output in the build console as well as some results added to the test spec in XLTV that you choose to push to.
