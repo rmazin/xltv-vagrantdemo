@@ -26,7 +26,7 @@ To access Jenkins use http://your-image-ip:8080
 2. In Jenkins, click on the job name and click configure
 3. Add a 'Post Build Step'
 4. Choose your Test Specicificaiton
-5. Enter */**.xml in the include field
+5. Enter build/tests/*.xml in the include field (In this particular instance this is where the test results save)
 5. Build job and look at console for the [XL TestView] messages.
 
 PowerPoint training document is included in this repository.
