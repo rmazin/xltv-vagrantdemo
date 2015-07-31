@@ -1,7 +1,8 @@
 # xltv-vagrantdemo
 Demo of XLTV along with Jenkins in a vagrant image.
+Also includes XL Release with template to kick of Jenkins job with Selenium.
 
-This demo box uses XL TestView 1.2.0 CE with Jenkins.
+This demo box uses XL TestView 1.2.0 CE with Jenkins and XL Release 4.7.
 
 #To use this image do the following:
 
@@ -13,6 +14,7 @@ This demo box uses XL TestView 1.2.0 CE with Jenkins.
 
 To access XLTV use http://your-image-ip:6516
 To access Jenkins use http://your-image-ip:8080
+To access XLR use http://your-image-ip:5516
 
 #To import test results in XLTV
 1. Go to Import on the navigation in XLTV
@@ -28,6 +30,13 @@ To access Jenkins use http://your-image-ip:8080
 4. Choose your Test Specicificaiton
 5. Enter build/tests/*.xml in the include field (In this particular instance this is where the test results save)
 5. Build job and look at console for the [XL TestView] messages.
+
+#To kick off the XLR Release
+1. In XLR go to Templates
+2. Under the XLTV Selenium template kick "start new release"
+3. Start the release
+
+Please note that the Jenkins jobs must be linked to the XLTV test spec first in order for the jobs to push results to XLTV.
 
 PowerPoint training document is included in this repository.
 
