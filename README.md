@@ -36,8 +36,8 @@ To access XLR use http://your-image-ip:5516
 2. Under the XLTV Selenium template kick "start new release"
 3. Start the release
 
-Please note that the Jenkins jobs must be linked to the XLTV test spec first in order for the jobs to push results to XLTV.
+<b>Please note:</b> The Jenkins jobs must be linked to the XLTV test spec first in order for the jobs to push results to XLTV.
 
 PowerPoint training document is included in this repository.
 
-<b>Please note:</b>  The job will push results using a simple phpunit test which Jenkins runs during the build and exports to jUnit format.  The build will fail.  You will see the push output in the build console as well as some results added to the test spec in XLTV that you choose to push to.
+<b>Please note:</b>  The XLTV job in Jenkins will push results using a simple phpunit test which Jenkins runs during the build and exports to jUnit format.  The build will fail.  You will see the push output in the build console as well as some results added to the test spec in XLTV that you choose to push to.  The Selenium-XLTV job will push selenium results to XLTV.
