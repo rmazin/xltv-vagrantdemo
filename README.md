@@ -33,7 +33,7 @@ To access XLR use http://your-image-ip:5516
 
 #To kick off the XLR Release
 1. In XLR go to Templates
-2. Under the XLTV Selenium template kick "start new release"
+2. Under the Jenkins XLTV kick "new release from template"
 3. Start the release
 
 <b>Please note:</b> The Jenkins jobs must be linked to the XLTV test spec first in order for the jobs to push results to XLTV.
