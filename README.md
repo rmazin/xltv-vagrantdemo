@@ -8,9 +8,9 @@ This demo box uses XL TestView 1.2.0 CE with Jenkins and XL Release 4.7.
 
 1. clone this repository
 2. cd to directory where you cloned this repository
-3. run vagrant up
-4. run vagrant ssh
-5. run ifconfig to get your IP
+3. run this command: vagrant up
+4. run this command: vagrant ssh
+5. run this command: ifconfig to get your IP
 
 To access XLTV use http://your-image-ip:6516
 To access Jenkins use http://your-image-ip:8080
